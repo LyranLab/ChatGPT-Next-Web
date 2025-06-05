@@ -28,7 +28,7 @@ export const CN_MASKS: BuiltinMask[] = [
       },
     ],
     modelConfig: {
-      model: "gpt-4", // 使用更强大的模型以支持复杂技术解答
+      model: "gpt-3.5-turbo", // 使用更强大的模型以支持复杂技术解答
       temperature: 0.7, // 确保回答精准且逻辑清晰
       max_tokens: 4000, // 支持详细的代码和步骤
       presence_penalty: 0,
